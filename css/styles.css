@@ -128,6 +128,13 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
+.heading {
+  margin-top: 100px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.445);
+  width: 50%;
+}
+
 hr {
   border-color: grey;
   border-style: none;
@@ -139,6 +146,7 @@ hr {
 img {
   display: block;
   margin: 0 auto;
+  padding-right: 17px;
 }
 
 h1 {
@@ -153,10 +161,6 @@ p {
   color: rgb(202, 202, 202);
 }
 
-.hero {
-  margin-top: 100px;
-}
-
 .linkedIn {
   color: white;
 }
@@ -167,9 +171,8 @@ p {
 
 .form {
   position: absolute;
-  top: 50%;
   left: 42%;
-  margin: 0 0 0 -25px;
+  margin: 25px 0 0 -25px;
   padding: 0 10px 10px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.445);
@@ -181,8 +184,8 @@ label {
 
 .carousel {
   margin-top: 50px;
-  width: 70%;
-  border: solid 5px black;
+  width: 50%;
+  border: solid 5px rgba(0, 0, 0, 0.445);
   border-radius: 3%;
 }
 
@@ -190,4 +193,8 @@ label {
 .carousel-control-next:hover {
   cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),
     auto;
+}
+
+.slidepic:hover {
+  opacity: 90%;
 }
